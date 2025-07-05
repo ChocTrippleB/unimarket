@@ -5,7 +5,7 @@ import navItems from "../data.js";
 const Navbar = () => {
     return (
         <div className="shadow-sm py-1">
-            <div className="my-1 py-2 shadow-sm flex justify-between">
+            <div className="my-1 py-1.5 flex justify-between">
                 <div className="flex mx-2 gap-2">
                     <img
                         src="./vite.svg"
@@ -20,13 +20,14 @@ const Navbar = () => {
                     <li><Link to="/">Login</Link></li>
                 </ul>
             </div>
-            <div className="mx-6">
-                <ul className="flex gap-10 catnav py-4">
-                    <li><Link to="/">Tech</Link></li>
-                    <li><Link to="/cart">Books</Link></li>
-                    <li><Link to="/">Gadgets</Link></li>
-                    <li><Link to="/cart">Men</Link></li>
-                    <li><Link to="/">Ladies</Link></li>
+            <hr className="text-gray-300"/>
+            <div className="mx-6 hidden md:block lg:block">
+                <ul className="flex gap-10 catnav py-3.5">
+                    <li className="font-bold"><Link to="/">Tech</Link></li>
+                    <li className="font-bold"><Link to="/cart">Books</Link></li>
+                    <li className="font-bold"><Link to="/">Gadgets</Link></li>
+                    <li className="font-bold"><Link to="/cart">Men</Link></li>
+                    <li className="font-bold"><Link to="/">Ladies</Link></li>
                 </ul>
             </div>
         </div>
