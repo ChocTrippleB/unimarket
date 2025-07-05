@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Home from './Home/Home.jsx';
-import Cart from './Cart/Cart.jsx';
+import Home from './pages/Home.jsx';
+import Cart from './pages/Cart.jsx';
 import "./App.css"
 
 function App() {
