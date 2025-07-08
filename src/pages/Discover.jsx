@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from "../components/Navbar.jsx";
 
 const Discover = () => {
     return (
-        <div>Discover</div>
+        <div>
+            <div>
+                <Navbar/>
+            </div>
+        </div>
     )
 }
 export default Discover

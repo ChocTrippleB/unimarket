@@ -70,3 +70,18 @@ export const cartItems = [
     //     total: "R72.70"
     // }
 ];
+
+export const profile = [
+    {
+        id: 1,
+        seller_name: "Bantu-Bethu Beya",
+        username: "@bantubeya",
+        picture: "https://randomuser.me/api/portraits/men/32.jpg",
+        product_image: "./blue-low-nike.png",
+        product_name: "Baby blue Nike Dunk Low trainers #sneakers",
+        in_bags: "2",
+        price: "R800.00",
+        sales_tax: "R3.00",
+        total: "R83.00"
+    }
+    ]
