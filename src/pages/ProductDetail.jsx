@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from "../components/Navbar.jsx";
 import {ChatBubbleBottomCenterTextIcon, ShoppingBagIcon} from "@heroicons/react/16/solid/index.js";
 
-const ItemDetails = () => {
+const ProductDetail = () => {
     return (
         <div className="">
             <Navbar/>
@@ -62,4 +62,4 @@ const ItemDetails = () => {
         </div>
     )
 }
-export default ItemDetails
+export default ProductDetail

@@ -85,3 +85,30 @@ export const profile = [
         total: "R83.00"
     }
     ]
+
+export const ShopItems = [
+    {
+        id: 1,
+        images: "./blue-low-nike.png",
+        name: "Nike Dunk Low",
+        description: "Baby blue Nike Dunk Low trainers #sneakers",
+        price: "1 200.00",
+        condition: "New"
+    },
+    {
+        id: 2,
+        images: "./adidas-yeezy.png",
+        name: "Adidas Yeezy Boost 350 V2",
+        description: "Adidas Yeezy Boost 350 V2 awesome takkies brada",
+        price: "650.00",
+        condition: "New"
+    },
+    {
+        id: 3,
+        images: "./converse-chunk.png",
+        name: "Converse Chuck",
+        description: "Converse Chuck Taylor Classic",
+        price: "900.00",
+        condition: "New"
+    }
+    ]
